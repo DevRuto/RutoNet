@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "amd",
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "declaration": false,
+      "sourceMap": false,
+      "target": "es5"
+    },
+    "compileOnSave": false,
+    "include": [
+      "src/**/*.ts",
+    ],
+    "exclude": [
+      "node_modules",
+      "wwwroot"
+    ]
+  }
