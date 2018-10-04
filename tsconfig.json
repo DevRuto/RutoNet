@@ -1,19 +1,17 @@
 {
-    "compilerOptions": {
-      "module": "amd",
-      "noImplicitAny": false,
-      "noEmitOnError": true,
-      "removeComments": false,
-      "declaration": false,
-      "sourceMap": false,
-      "target": "es5"
-    },
-    "compileOnSave": false,
-    "include": [
-      "src/**/*.ts",
-    ],
-    "exclude": [
-      "node_modules",
-      "wwwroot"
-    ]
-  }
+  "compilerOptions": {
+    "outDir": "./public/dist/",
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

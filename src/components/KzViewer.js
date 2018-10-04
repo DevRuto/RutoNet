@@ -1,5 +1,5 @@
 import React from "react";
-import { ReplayViewer } from "../lib/zikviewer/ReplayViewer.ts";
+import {ReplayViewer} from "../lib/zikviewer/ReplayViewer.ts";
 import { CameraMode } from '../lib/zikviewer/SourceUtils/MapViewer.ts';
 import config from '../config';
 
