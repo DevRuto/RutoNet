@@ -10,9 +10,6 @@ class Replay extends React.Component {
             <Container>
                 Hey there im replays
                 <KzViewer>
-                    <div id="est">
-
-                    </div>
                 </KzViewer>
             </Container>
         );

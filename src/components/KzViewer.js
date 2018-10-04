@@ -1,6 +1,6 @@
 import React from "react";
-import {ReplayViewer} from "../lib/zikviewer/ReplayViewer.ts";
-import { CameraMode } from '../lib/zikviewer/SourceUtils/MapViewer.ts';
+import { ReplayViewer } from "../lib/zikviewer/ReplayViewer";
+import { CameraMode } from '../lib/zikviewer/SourceUtils/MapViewer';
 import config from '../config';
 
 class KzViewer extends React.Component {

@@ -3,11 +3,9 @@
     "outDir": "./public/dist/",
     "noImplicitAny": false,
     "noEmitOnError": true,
-    "declaration": false,
-    "module": "es6",
+    "declaration": true,
+    "module": "amd",
     "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
     "sourceMap": true
   },
   "include": [
