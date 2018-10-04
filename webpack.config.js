@@ -10,7 +10,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx']
     },
     output: {
-        path: path.resolve(__dirname, '/public/dist'),
+        path: path.resolve(__dirname, './public/dist'),
         filename: '[name].bundle.js',
     },
     mode: process.env.NODE_ENV || 'development',
